@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "https://via.placeholder.com/600/92c952")!
+        let url = URL(string: "https://speed.hetzner.de/100MB.bin")!
         
         downloadFile(url: url)
     }
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
 
 }
 
-extension ViewController : URLSessionDelegate {
+extension ViewController : URLSessionDownloadDelegate {
     
     func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
         DispatchQueue.main.async {
@@ -47,7 +47,7 @@ extension ViewController : URLSessionDelegate {
             backgroundCompletionHandler()
         }
     }
-    
+        
     func urlSession(
         _ session: URLSession,
         downloadTask: URLSessionDownloadTask,

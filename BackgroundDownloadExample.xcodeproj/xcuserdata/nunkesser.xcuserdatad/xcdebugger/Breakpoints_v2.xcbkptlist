@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4EFBB2E8-6601-4AB1-B9EC-85113B632142"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70EB0090-8E0D-4469-A2FB-13735AC5187F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundDownloadExample/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "application(_:handleEventsForBackgroundURLSession:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F05B6747-E9F0-4753-95FA-579E7C5D8C46"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundDownloadExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "urlSession(_:downloadTask:didFinishDownloadingTo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DE67147-8F5F-4BCC-8B74-C360BB932A89"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BackgroundDownloadExample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "urlSessionDidFinishEvents(forBackgroundURLSession:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0DE67147-8F5F-4BCC-8B74-C360BB932A89 - fe00ee98542977d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in BackgroundDownloadExample.ViewController.urlSessionDidFinishEvents(forBackgroundURLSession: __C.NSURLSession) -&gt; ()"
+                  moduleName = "BackgroundDownloadExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nunkesser/repos/work/artifacts/swift-uikit-background-download/BackgroundDownloadExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "269">
+               </Location>
+               <Location
+                  uuid = "0DE67147-8F5F-4BCC-8B74-C360BB932A89 - fe00ee98542977d7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in BackgroundDownloadExample.ViewController.urlSessionDidFinishEvents(forBackgroundURLSession: __C.NSURLSession) -&gt; ()"
+                  moduleName = "BackgroundDownloadExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nunkesser/repos/work/artifacts/swift-uikit-background-download/BackgroundDownloadExample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "331">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
