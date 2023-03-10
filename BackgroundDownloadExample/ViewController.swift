@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "https://speed.hetzner.de/100MB.bin")!
+        let url = URL(string: "http://ipv4.download.thinkbroadband.com/512MB.zip")!
         
         downloadFile(url: url)
     }
